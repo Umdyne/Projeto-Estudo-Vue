@@ -4,3 +4,18 @@ body {
   font-family: 'Open Sans';
   background: #ece6d9;
 }
+
+@font-face {
+    font-family: HyliaSerif;
+    src: url("HyliaSerifBeta-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: The Wild Breath;
+    src: url("TheWildBreathofZelda.otf") format("opentype");
+}
+
+h1 {
+    font-family: The Wild Breath;
+    letter-spacing: 4px;
+}
